@@ -1,0 +1,47 @@
+[
+    {
+        "httpRequest": {
+            "method": "GET",
+            "path": "/api/v1/airports",
+            "queryStringParameters": {
+                "query": [
+                    "be"
+                ]
+            }
+        },
+        "httpResponse": {
+            "body": "[
+                {
+                \"iata_code\": \"BE\",
+                \"name\": \"Belgium\",
+                \"country\": \"Belgium\"
+                },
+                {
+                \"iata_code\": \"BELF\",
+                \"name\": \"Belfast\",
+                \"country\": \"United Kingdom\",
+                \"city\": \"Belfast\"
+                },
+                {
+                \"iata_code\": \"BFS\",
+                \"name\": \"Belfast International\",
+                \"country\": \"United Kingdom\",
+                \"city\": \"Belfast\"
+                },
+                {
+                \"iata_code\": \"BHD\",
+                \"name\": \"Belfast City\",
+                \"country\": \"United Kingdom\",
+                \"city\": \"Belfast\"
+                },
+                {
+                \"iata_code\": \"BER\",
+                \"name\": \"Berlin Brandenburg\",
+                \"country\": \"Germany\",
+                \"city\": \"Berlin\"
+                }
+            ]",
+            "statusCode": 200
+        }
+    }
+]
